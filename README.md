@@ -48,8 +48,8 @@ $primary // The second color used in contrast to the background. I suggest you u
 $secondary // Similar to primary except you should use a lighter tone / darker tone depending on where you are planning on using it. By default this is used on the nav, footer, and background text
 $alt // Text color for buttons and titles for the portfolio section. Should use something that pops.
 $hOne    ---\
-$hTwo    --- | // All these
-$hThree  --- | 
+$hTwo    --- | // All these variables are used to create the gradient hover on the text/button/icon
+$hThree  --- | // I will explain this in the next section.
 $hFour   ---/
 ...
 ```
