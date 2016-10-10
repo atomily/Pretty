@@ -108,13 +108,17 @@ Example
 These classes are meant to be used anywhere in the framework. I included a example of how each looks incase you were curious. 
 
 Pulse Example
-[Pulse](https://i.gyazo.com/f2972c4e3990bdfd05434351561a4d4f.png)
+
+![Pulse](https://i.gyazo.com/f2972c4e3990bdfd05434351561a4d4f.png)
+
 ```html
 <h1 class="title pulse">Pulse</h1>
 ```
 
 Shift Example
-[Shift](https://i.gyazo.com/46e07c606b21924858d48858b48f2a22.png)
+
+![Shift](https://i.gyazo.com/46e07c606b21924858d48858b48f2a22.png)
+
 ```html
 <h1 class="title shift">Shift</h1>
 ```
