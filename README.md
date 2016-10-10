@@ -27,7 +27,9 @@ This framework accomplishes both. It allows the creator to change any color they
 ### Installation
 The first step is to install the framework. You can either download the whole zip or you can just go into the dist folder and choose the version you want. Each version comes with a landing page and example portfolio page. The "Example Project" comes with all the styles combined into 1 style sheet. 
 
-!!! This guide assumes you know how to setup SaSS. You can change everything without SaSS but it's harder !!!
+```diff
+- This guide assumes you know how to setup SaSS. You can change everything without SaSS but it's harder
+```
 
 Once your fine with the theme you chose, install it where you typically have your projects. Mine is here (Yours is problably different)
 
