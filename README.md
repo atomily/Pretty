@@ -84,7 +84,7 @@ Example
 ```
 
 #### Footer (in detail)
-The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add a icon just add it to the ```social``` class.
+The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
 
 Example
 ```html
