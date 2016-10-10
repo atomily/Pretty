@@ -4,10 +4,10 @@ $background: #292942;
 $primary: #313050;
 $secondary: #9593c5;
 $alt: #f0f6f7;
-$hOne: #f76baa;
-$hTwo: #fd75a0;
-$hThree: #fd8485;
-$hFour: #fd906f;
+$pOne: #5d5ad1;
+$pTwo: #725ade;
+$pThree: #9e54f4;
+$pFour: #c84bf7;
 ::-moz-selection {
     color: #ffffff;
     background: $primary;
@@ -35,8 +35,8 @@ $hFour: #fd906f;
             position: fixed;
             width: 20%;
             padding-left: 2.5%;
-            .no {
-                color: $nFour;
+            .pu {
+                color: $pFour;
             }
             p {
                 display: inline;
@@ -51,7 +51,7 @@ $hFour: #fd906f;
                 margin-top: 15px;
                 color: $secondary;
             }
-            .form-n {
+            .form-p {
                 width: 80%;
                 margin-top: 5%;
                 margin-bottom: 5%;
@@ -69,7 +69,7 @@ $hFour: #fd906f;
                     text-align: center;
                     font-size: 12px;
                     color: $alt;
-                    background: $nFour;
+                    background: $pFour;
                     border-radius: 10px;
                 }
                 a {
@@ -79,14 +79,14 @@ $hFour: #fd906f;
                     padding: 12px 24px;
                     background: transparent;
                     text-align: left;
-                    border-left: 1px solid $nFour;
-                    border-right: 1px solid $nFour;
-                    border-bottom: 1px solid $nFour;
+                    border-left: 1px solid $pFour;
+                    border-right: 1px solid $pFour;
+                    border-bottom: 1px solid $pFour;
                     color: $alt;
                     text-decoration: none;
                     transition: all .3s ease;
                     &:first-child {
-                        border-top: 1px solid $nFour;
+                        border-top: 1px solid $pFour;
                         border-top-right-radius: 9px;
                         border-top-left-radius: 9px;
                     }
@@ -96,12 +96,12 @@ $hFour: #fd906f;
                     }
                     &:hover {
                         transition: all .3s ease;
-                        background: darken($nFour, 2.5%);
+                        background: darken($pFour, 2.5%);
                         color: $alt;
                     }
                     &:focus {
                         transition: all .3s ease;
-                        background: $nFour;
+                        background: $pFour;
                         color: $alt;
                     }
                 }
@@ -130,8 +130,8 @@ $hFour: #fd906f;
                 margin-top: -0.5%;
             }
             .data {
-                .n {
-                    color: $nFour!important;
+                .p {
+                    color: $pFour!important;
                 }
                 .dTitle {
                     color: $alt;
@@ -145,7 +145,7 @@ $hFour: #fd906f;
                 .item {
                     padding-bottom: 10px;
                     border-top: 1px solid lighten($background, 7.5%);
-                    .nRef {
+                    .pRef {
                         display: inline-block;
                         width: auto;
                         padding: 8px;
@@ -161,7 +161,7 @@ $hFour: #fd906f;
                             margin-top: 10px;
                         }
                         a[data-tooltip][data-placement="bottom"]::after {
-                            border-bottom-color: $nFour;
+                            border-bottom-color: $pFour;
                             border-top: none;
                             top: 100%;
                             left: 0px;
@@ -175,7 +175,7 @@ $hFour: #fd906f;
                         }
                         a[data-tooltip]::before {
                             content: attr(data-tooltip);
-                            background: $nFour;
+                            background: $pFour;
                             color: $alt;
                             font-size: 12px;
                             padding: 10px;
@@ -213,10 +213,10 @@ $hFour: #fd906f;
                         font-weight: 100;
                         font-size: 12px;
                         letter-spacing: .5px;
-                        .nTag {
-                            border: 1px solid $nFour;
+                        .pTag {
+                            border: 1px solid $pFour;
                             font-size: 12px;
-                            color: $nFour;
+                            color: $pFour;
                             padding: 4px 8px;
                             margin-right: 5px;
                             text-align: center;
@@ -227,7 +227,7 @@ $hFour: #fd906f;
         }
     }
 }
-.nova {
+.pulse {
     text-decoration: none;
     color: white;
     padding: 0.2em;
@@ -242,8 +242,8 @@ $hFour: #fd906f;
     -ms-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(315deg, $nOne, $nTwo, $nThree, $nFour);
-    background-image: linear-gradient(-45deg, $nOne, $nTwo, $nThree, $nFour);
+    background-image: -webkit-linear-gradient(315deg, $pOne, $pTwo, $pThree, $pFour);
+    background-image: linear-gradient(-45deg, $pOne, $pTwo, $pThree, $pFour);
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     transition: all 0.5s linear;
@@ -549,7 +549,7 @@ $hFour: #fd906f;
                     transition: all .3s ease;
                     opacity: .7;
                 }
-                .btn-n {
+                .btn-p {
                     position: relative;
                     border: 2px solid transparent;
                     border-radius: 12px;
@@ -573,8 +573,8 @@ $hFour: #fd906f;
                         left: -2px;
                         right: -2px;
                         background-size: 250% 100%;
-                        background-image: -webkit-linear-gradient(315deg, $nOne, $nTwo, $nThree, $nFour);
-                        background-image: linear-gradient(-45deg, $nOne, $nTwo, $nThree, $nFour);
+                        background-image: -webkit-linear-gradient(315deg, $pOne, $pTwo, $pThree, $pFour);
+                        background-image: linear-gradient(-45deg, $pOne, $pTwo, $pThree, $pFour);
                         content: '';
                         z-index: -1;
                         border-radius: 12px;
@@ -583,8 +583,8 @@ $hFour: #fd906f;
                         transition: all 3s ease;
                     }
                     &:hover {
-                        background-image: -webkit-linear-gradient(315deg, $nOne, $nTwo, $nThree, $nFour);
-                        background-image: linear-gradient(-45deg, $nOne, $nTwo, $nThree, $nFour);
+                        background-image: -webkit-linear-gradient(315deg, $pOne, $pTwo, $pThree, $pFour);
+                        background-image: linear-gradient(-45deg, $pOne, $pTwo, $pThree, $pFour);
                         -webkit-transition: all 3s linear;
                         -moz-transition: all 3s linear;
                         transition: all 3s ease;
