@@ -1,6 +1,3 @@
-<?php
-// test
-?>
 <!DOCTYPE html>
 <html>
  <head>
@@ -9,7 +6,6 @@
   <title>Home - Pretty</title>
   <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/theme.css?<?php echo time(); ?>">
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
  </head>
  <body>
@@ -19,16 +15,15 @@
      <a href="#" class="logo pulse">Pretty</a>
     </div>
     <ul>
-     <li><a href="#">Home</a></li>
-     <li><a href="#">Docs</a></li>
-     <li><a href="#">Contact</a></li>
+     <li><a href="index.php">Home</a></li>
+     <li><a href="portfolio.php">Portfolio</a></li>
     </ul>
    </div>
   </div>
   <div class="content-container">
    <div class="content">
     <h1 class="title pulse">Hello World!</h1>
-    <h2 class="subtitle">We are a team of designers & developers that are ready to create your dream site.</h2>
+    <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla turpis dolor. Aliquam non imperdiet est. Nullam eu eros ac nulla aliquet lacinia et nec elit. </h2>
     <div class="btn-g">
      <a href="#" class="btn-p">Follow Us On Github</a>
     </div>
@@ -43,18 +38,14 @@
      <a href="#"><i class="fa fa-paper-plane pulse" aria-hidden="true"></i></a>
     </div>
     <div class="copy">
-     <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date("Y"); ?> <a href="#" class="pulse">TBD</a> All Rights Reserved</p>
+     <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date("Y"); ?> <a href="#" class="pulse">Pretty</a> All Rights Reserved</p>
     </div>
    </div>
   </div>
   <!-- js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
   <!--[if lt IE 9]>
    <script src="assets/js/html5shiv.js"></script>
   <![endif]-->
-  <script type="text/javascript">
-    // test
-  </script>
  </body>
 </html>
