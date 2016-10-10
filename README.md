@@ -61,6 +61,11 @@ $hFour   ---/
 ### Gradients
 The gradients used in <i>Pretty</i> distinguishes the framework from others. By default, I included four different "themes" or gradients. "Pulse" which is the purple theme shown in the [Examples](#Examples) is being used as the example. The general idea behind the gradients is to create a background behind the text/icon/whatever and transform it when you hover over it. We achieve this effect by making the text-fill-color transparent for all browsers.
 
+Now back to the variables. You might be wondering why I named the variables $hOne, $hTwo, etc. This was because they originate from $hOne all the way to $hFour. $hOne originates from the left side all the way to the right where $hFour stands. I included a example of how this effect looks below.
+
+![ExGif](https://i.gyazo.com/4d0910d01c76acdcb950555561c306a8.gif)
+
+
 SaSS Example
 ```sass
 .pulse {
