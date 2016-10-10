@@ -68,6 +68,7 @@ The navigation is broken down pretty straightforward. The navigation-container h
 
 To add / remove navigation links just add a ```<li><a href="#">Example</a></li>``` after the previous li or remove it. 
 
+Example
 ```html
   <div class="navigation-container">
    <div class="navigation">
@@ -82,6 +83,25 @@ To add / remove navigation links just add a ```<li><a href="#">Example</a></li>`
   </div>
 ```
 
+#### Footer (in detail)
+The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add a icon just add it to the ```social``` class.
+
+Example
+```html
+  <div class="footer-container">
+   <div class="footer">
+    <div class="social">
+     <a href="#"><i class="fa fa-github pulse" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-linkedin-square pulse" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-twitter pulse" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-paper-plane pulse" aria-hidden="true"></i></a>
+    </div>
+    <div class="copy">
+     <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date("Y"); ?> <a href="#" class="pulse">Pretty</a> All Rights Reserved</p>
+    </div>
+   </div>
+  </div>
+```
 <a name="CSS"/>
 ## CSS
 ### Gradients
