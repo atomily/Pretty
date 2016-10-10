@@ -111,6 +111,29 @@ The content is where this framework shines. It's so simple but it makes everythi
 </div>
 ```
 
+##### Filter
+The filter is used as a filter for the table. The table will hold all your portfolio items. This is pretty straight forward so there isn't much to explain. 
+
+```html
+<div class="content-container">
+ <div class="content">
+  <div class="filter">
+   <p class="pu">Table Filter</p>
+   <div class="form-p">
+    <a href="#">Lorem Ipsum <span class="badge">21</span></a>
+    <a href="#">Lorem Ipsum <span class="badge">488</span></a>
+    <a href="#">Lorem Ipsum <span class="badge">76</span></a>
+    <a href="#">Lorem Ipsum <span class="badge">9</span></a>
+    <a href="#">Lorem Ipsum <span class="badge">7</span></a>
+    <a href="#">Lorem Ipsum <span class="badge">82</span></a>
+   </div>
+  </div>
+ </div>
+</div>
+```
+
+![Filter](https://i.gyazo.com/f25a40dd4c0e21142f399773133cb872.gif)
+
 #### Footer (in detail)
 The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
 
