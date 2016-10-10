@@ -58,6 +58,80 @@ $hFour   ---/
 ...
 ```
 
+### Gradients
+The gradients used in <i>Pretty</i> distinguishes the framework from others. By default, I included four different "themes" or gradients.  
+
+SaSS Example
+```sass
+.pulse {
+  text-decoration: none;
+  color: white;
+  padding: 0.2em;
+  line-height: 0.8em;
+  display: inline-block;
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(315deg, $pOne, $pTwo, $pThree, $pFour);
+  background-image: linear-gradient(-45deg, $pOne, $pTwo, $pThree, $pFour);
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+
+  &:hover {
+    background-position: 100% 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-animation: 1s return infinite alternate;
+    -moz-animation: 1s return infinite alternate;
+    animation: 1s return infinite alternate;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+}
+```
+
+CSS Example
+```css
+.pulse {
+    text-decoration: none;
+    color: white;
+    padding: 0.2em;
+    line-height: 0.8em;
+    display: inline-block;
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(315deg, #5d5ad1, #725ade, #9e54f4, #c84bf7);
+    background-image: linear-gradient(-45deg, #5d5ad1, #725ade, #9e54f4, #c84bf7);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.pulse:hover {
+    background-position: 100% 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-animation: 1s return infinite alternate;
+    -moz-animation: 1s return infinite alternate;
+    animation: 1s return infinite alternate;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+```
+
 <a name="CSS"/>
 ## CSS
 <a name="Support"/>
