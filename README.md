@@ -86,6 +86,7 @@ Example
 ### Content (in detail)
 The content is where this framework shines. It's so simple but it makes everything look <i>pretty</i>. It is built in the same fashion as the navigation and the footer. The content-container holds it but it doesn't have any fixed position, just padding to the top. The content just holds the content.
 
+##### Title / Subtitle
 ``` title ``` is used at the top of the page. In the examples its the big text on the middle of the webpage. ``` subtitle ``` is exactly the same as ``` title ``` except it's smaller.
 
 ```html
@@ -95,6 +96,19 @@ The content is where this framework shines. It's so simple but it makes everythi
   <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
  </div>
 </div> 
+```
+##### Buttons
+```btn-g``` holds the button on the middle of the page. This can be viewed as the container for ```btn-p, btn-h, btn-s, btn-n```. An alternative version is available for the button class by just adding the ```alt``` class.
+
+```html
+<div class="content-container">
+ <div class="content">
+  <div class="btn-g">
+   <a href="#" class="btn-p">Example button</a>
+   <a href="#" class="btn-s alt">Alternative button</a>
+  </div>
+ </div>
+</div>
 ```
 
 #### Footer (in detail)
