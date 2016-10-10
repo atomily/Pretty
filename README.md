@@ -157,6 +157,9 @@ I would say this is the most complex part of the framework and even then it's si
 </div>
 ```
 
+![Table](https://i.gyazo.com/a5c5f14d960f79957b7b5edfd5729fc1.gif)
+![Tags](https://i.gyazo.com/f79663281c8279f8deb9d176d85c5c8c.gif)
+
 #### Footer (in detail)
 The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
 
