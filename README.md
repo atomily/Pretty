@@ -178,7 +178,7 @@ The ```desc``` class is just the description of the project. It's just a simple 
  </div>
 </div>
 ```
-![Table](https://i.gyazo.com/a5c5f14d960f79957b7b5edfd5729fc1.gif
+![Table](https://i.gyazo.com/a5c5f14d960f79957b7b5edfd5729fc1.gif)
 
 #### Footer (in detail)
 The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
