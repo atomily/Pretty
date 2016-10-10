@@ -84,14 +84,15 @@ Example
 ```
 
 ### Content (in detail)
-The content is where this framework shines. It's so simple but it makes everything look <i>pretty</i>.
+The content is where this framework shines. It's so simple but it makes everything look <i>pretty</i>. It is built in the same fashion as the navigation and the footer. The content-container holds it but it doesn't have any fixed position, just padding to the top. The content just holds the content.
 
-``` title ```
+``` title ``` is used at the top of the page. In the examples its the big text on the middle of the webpage. ``` subtitle ``` is exactly the same as ``` title ``` except it's smaller.
 
 ```html
 <div class="content-container">
  <div class="content">
   <h1 class="title">Hello World</h1>
+  <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
  </div>
 </div> 
 ```
