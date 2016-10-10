@@ -60,7 +60,8 @@ $hFour   ---/
 ...
 ```
 
-
+### Layout
+I based the layout on the best way I feel is to display a portfolio. The navigation is fixed in the top position incase the viewer wants to go to another page. The footer is also in a fixed position but it has the copyright info for your website and the "social" section. By default I integrated [Font Awesome](http://fontawesome.io/) into it but you are free to add your own. Any icon set should work based on the code (Don't blame me if I'm wrong)
 
 <a name="CSS"/>
 ## CSS
