@@ -112,7 +112,7 @@ The content is where this framework shines. It's so simple but it makes everythi
 ```
 
 ##### Filter
-The filter is used as a filter for the table. The table will hold all your portfolio items. This is pretty straight forward so there isn't much to explain. 
+The filter is used as a filter for the table. The table will hold all your portfolio items. This is pretty straight forward so there isn't much to explain. This supports universal classes
 
 ```html
 <div class="content-container">
@@ -133,6 +133,29 @@ The filter is used as a filter for the table. The table will hold all your portf
 ```
 
 ![Filter](https://i.gyazo.com/f25a40dd4c0e21142f399773133cb872.gif)
+
+##### Table
+I would say this is the most complex part of the framework and even then it's simple if you know what your doing.
+
+```html
+<div class="table">
+<h3>2 Years of Designing and Developing</h3>
+<h2>3 + projects and counting!</h2>
+<h1>3 Results</h1>
+<div class="data">
+ <h1 class="dTitle p">2016</h1>
+ <div class="item">
+  <h1 class="iTitle">Lorem Ipsum</h1>
+  <div class="pRef">
+   <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush pulse"></i></a>
+   <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o pulse"></i></a>
+  </div>
+  <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
+  <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+  </div>
+ </div>
+</div>
+```
 
 #### Footer (in detail)
 The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
