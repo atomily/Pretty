@@ -55,11 +55,15 @@ $secondary // Similar to primary except you should use a lighter tone / darker t
 $alt // Text color for buttons and titles for the portfolio section. Should use something that pops.
 $hOne    ---\
 $hTwo    --- | // All these variables are used to create the gradient hover on the text/button/icon
-$hThree  --- | // I will explain this in the next section.
+$hThree  --- | // I will explain this in the CSS section.
 $hFour   ---/
 ...
 ```
 
+
+
+<a name="CSS"/>
+## CSS
 ### Gradients
 The gradients used in <i>Pretty</i> distinguishes the framework from others. By default, I included four different "themes" or gradients. "Pulse" which is the purple theme shown in the [Examples](#Examples) is being used as the example. The general idea behind the gradients is to create a background behind the text/icon/whatever and transform it when you hover over it. We achieve this effect by making the text-fill-color transparent for all browsers.
 
@@ -192,8 +196,7 @@ CSS Example
 }
 ```
 
-<a name="CSS"/>
-## CSS
+
 <a name="Support"/>
 ## Supported Libraries
 (I'm sure the framework supports more libraries but I built it with these two in mind. If you use another library and it works, let me know and I'll add it to the list)
