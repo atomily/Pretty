@@ -6,6 +6,7 @@
 4. [CSS](#CSS)
 5. [Supported Libraries](#Support)
 6. [Credits](#Credits)
+7. [License](#License)
 
 <a name="Why"/>
 ## Why Should I Use This?
@@ -19,6 +20,7 @@ This framework accomplishes both. It allows the creator to change any color they
 <a name="Examples"/>
 ## Examples
 ![Pulse](https://i.gyazo.com/df8f0342d16ea9864c4645764838c93d.png)![Pulse](https://i.gyazo.com/89abc68420c3887a976048b36504b059.png)
+![Shift](https://i.gyazo.com/af1c62e2597ac8c42ae7c5866ba07681.png)![Shift](https://i.gyazo.com/4e616e815d8e575ef954bdd670d5a8e6.png)
 
 <a name="GetStarted"/>
 ## Getting Started
@@ -44,7 +46,8 @@ This framework accomplishes both. It allows the creator to change any color they
 
 [SkullCrusher](https://github.com/SkullCrusher) - For all the feedback he gave me during the making of the framework :)
 
-#License
+<a name="License"/>
+## License
 The MIT License
 
 Copyright (c) 2016 Michael Golebiewski. http://gleb.io
