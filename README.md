@@ -59,7 +59,7 @@ $hFour   ---/
 ```
 
 ### Gradients
-The gradients used in <i>Pretty</i> distinguishes the framework from others. By default, I included four different "themes" or gradients.  
+The gradients used in <i>Pretty</i> distinguishes the framework from others. By default, I included four different "themes" or gradients. "Pulse" which is the purple theme shown in the [Examples](#Examples) is being used as the example. The general idea behind the gradients is to create a background behind the text/icon/whatever and transform it when you hover over it. We achieve this effect by making the text-fill-color transparent for all browsers.
 
 SaSS Example
 ```sass
@@ -93,6 +93,36 @@ SaSS Example
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     transition: all 0.5s linear;
+  }
+}
+
+@-webkit-keyframes return {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes return {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes return {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
   }
 }
 ```
@@ -129,6 +159,30 @@ CSS Example
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
     transition: all 0.5s linear;
+}
+@-webkit-keyframes return {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+@-moz-keyframes return {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+@keyframes return {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
 }
 ```
 
