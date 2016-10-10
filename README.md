@@ -83,6 +83,19 @@ Example
   </div>
 ```
 
+### Content (in detail)
+The content is where this framework shines. It's so simple but it makes everything look <i>pretty</i>.
+
+``` title ```
+
+```html
+<div class="content-container">
+ <div class="content">
+  <h1 class="title">Hello World</h1>
+ </div>
+</div> 
+```
+
 #### Footer (in detail)
 The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
 
