@@ -21,9 +21,39 @@ This framework accomplishes both. It allows the creator to change any color they
 ## Examples
 ![Pulse](https://i.gyazo.com/df8f0342d16ea9864c4645764838c93d.png)![Pulse](https://i.gyazo.com/89abc68420c3887a976048b36504b059.png)
 ![Shift](https://i.gyazo.com/af1c62e2597ac8c42ae7c5866ba07681.png)![Shift](https://i.gyazo.com/4e616e815d8e575ef954bdd670d5a8e6.png)
-
+** You can view the live version here [Gleb.io/Pretty](http://www.gleb.io/)
 <a name="GetStarted"/>
 ## Getting Started
+### Installation
+The first step is to install the framework. You can either download the whole zip or you can just go into the dist folder and choose the version you want. Each version comes with a landing page and example portfolio page. The "Example Project" comes with all the styles combined into 1 style sheet.
+
+Once your fine with the theme you chose, install it where you typically have your projects. Mine is here (Yours is problably different)
+
+```html
+D:\wamp64\www\
+```
+Once we drag it in there feel free to check it out in your browser!
+
+### Customizing
+Ok so chances are the majority of you will want to change the colors of something. Thanks to SaSS, this is easy. Go to 
+
+```html
+../assets/css/theme.scss
+```
+and at the top of the file you should see a bunch of variables. Below is the list of variables used in the framework with a description.
+
+```sass
+$background // Simply the background of the page 
+$primary // The second color used in contrast to the background. I suggest you use a darker color then the background so people can see the layout clearer 
+$secondary // Similar to primary except you should use a lighter tone / darker tone depending on where you are planning on using it. By default this is used on the nav, footer, and background text
+$alt // Text color for buttons and titles for the portfolio section. Should use something that pops.
+$hOne    ---\
+$hTwo    --- | // All these
+$hThree  --- | 
+$hFour   ---/
+...
+```
+
 <a name="CSS"/>
 ## CSS
 <a name="Support"/>
