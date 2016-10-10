@@ -135,7 +135,29 @@ The filter is used as a filter for the table. The table will hold all your portf
 ![Filter](https://i.gyazo.com/f25a40dd4c0e21142f399773133cb872.gif)
 
 ##### Table
-I would say this is the most complex part of the framework and even then it's simple if you know what your doing.
+The ```table``` class holds everything together. You can think of this as your container. 
+
+The ```h3, h2, h1``` elements are titles in a way. They scale down in size ranging from h3 to h1. All three of these elements support the universal classes.
+
+The ```data``` class is the container for the portfolio items. 
+
+The ```dTitle``` class is the 'data title' which will be the year in our example. 
+
+The ```pRef``` is the icons for each item. The way this works is by using the ```data-tooltip="Lorem Ipsum"``` to display the text below the icon you hover over.  It supports the universal classes but it has a different variable name. ```data-placement="bottom"``` is required because that's where it creates the text. It wouldn't be to hard to display it somewhere else like left, right, and top. If enough people want it, I can add support to it. It supports ```sRef, hRef, pRef, and nRef```. An example of this is below. 
+
+The ```iTitle``` is the item title. It's the white text that can be seen under the border. 
+
+The ```iSub``` is similar to the iTitle class except it's smaller and has a different color. It supports the ```pTag``` & other univeral classes.
+
+The ```pTag``` is the tag for the portfolio items. This should be the same as the list items in the filter. It gives the viewer a good idea on what the item is and allows them to filter it. It supports ```sTag, pTag, hTag, and nTag```.
+
+```diff
+- Currently you will have to add the javascript filter code yourself but I'm planning on releasing one soon.
+```
+
+The ```desc``` class is just the description of the project. It's just a simple p tag with some styles.
+
+![Tags](https://i.gyazo.com/f79663281c8279f8deb9d176d85c5c8c.gif)
 
 ```html
 <div class="table">
@@ -156,9 +178,7 @@ I would say this is the most complex part of the framework and even then it's si
  </div>
 </div>
 ```
-
-![Table](https://i.gyazo.com/a5c5f14d960f79957b7b5edfd5729fc1.gif)
-![Tags](https://i.gyazo.com/f79663281c8279f8deb9d176d85c5c8c.gif)
+![Table](https://i.gyazo.com/a5c5f14d960f79957b7b5edfd5729fc1.gif
 
 #### Footer (in detail)
 The footer is actually the same thing as the navigation except that it supports icons and that it's on the bottom of the page. To add / remove a icon just add it to the ```social``` class. Pretty straight forward right?
@@ -347,6 +367,8 @@ CSS Example
 
 [SaSS](http://sass-lang.com/)
 
+[HTML5Shiv.js](https://github.com/aFarkas/html5shiv)
+
 <a name="Credits"/>
 ## Credits
 [Font Awesome](http://fontawesome.io/) - For making the framework look really <i>Pretty</i>
@@ -354,6 +376,8 @@ CSS Example
 [Normalize.css](https://necolas.github.io/normalize.css/) - for making my life easier
 
 [SaSS](http://sass-lang.com/) - Best CSS preprocessor ever
+
+[HTML5Shiv.js](https://github.com/aFarkas/html5shiv) - Made making crossbrowser stuff easy :)
 
 [SkullCrusher](https://github.com/SkullCrusher) - For all the feedback he gave me during the making of the framework :)
 
