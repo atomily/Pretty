@@ -13,7 +13,7 @@
   <div class="navigation-container">
    <div class="navigation">
     <div class="logo-container">
-     <a href="#" class="logo hyper">Pretty</a>
+     <a href="#" class="logo nova">Pretty</a>
     </div>
     <ul>
      <li><a href="index.php">Home</a></li>
@@ -23,10 +23,10 @@
   </div>
   <div class="content-container">
    <div class="content">
-    <h1 class="title hyper">Selected Works from 2016 - <?php echo date("Y");?></h1>
+    <h1 class="title nova">Selected Works from 2016 - <?php echo date("Y");?></h1>
     <div class="filter">
-     <p class="hy">Table Filter</p>
-     <div class="form-h">
+     <p class="no">Table Filter</p>
+     <div class="form-n">
       <a href="#">Lorem Ipsum <span class="badge">21</span></a>
       <a href="#">Lorem Ipsum <span class="badge">488</span></a>
       <a href="#">Lorem Ipsum <span class="badge">76</span></a>
@@ -40,65 +40,65 @@
      <h2>3 + projects and counting!</h2>
      <h1>3 Results</h1>
      <div class="data">
-      <h1 class="dTitle h">2016</h1>
+      <h1 class="dTitle n">2016</h1>
       <div class="item">
        <h1 class="iTitle">Lorem Ipsum</h1>
-       <div class="hRef">
-        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush hyper"></i></a>
-        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o hyper"></i></a>
+       <div class="nRef">
+        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush nova"></i></a>
+        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o nova"></i></a>
        </div>
-       <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
+       <p class="iSub"><span class="nTag">Website</span> for Onyx</p>
        <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
       </div>
       <div class="item">
        <h1 class="iTitle">Lorem Ipsum</h1>
-       <div class="hRef">
-        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush hyper"></i></a>
-        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o hyper"></i></a>
+       <div class="nRef">
+        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush nova"></i></a>
+        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o nova"></i></a>
        </div>
-       <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
-       <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-      </div>
-     </div>
-     <div class="data">
-      <h1 class="dTitle p">2016</h1>
-      <div class="item">
-       <h1 class="iTitle">Lorem Ipsum</h1>
-       <div class="hRef">
-        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush hyper"></i></a>
-        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o hyper"></i></a>
-       </div>
-       <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
-       <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-      </div>
-      <div class="item">
-       <h1 class="iTitle">Lorem Ipsum</h1>
-       <div class="hRef">
-        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush hyper"></i></a>
-        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o hyper"></i></a>
-       </div>
-       <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
+       <p class="iSub"><span class="nTag">Website</span> for Onyx</p>
        <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
       </div>
      </div>
      <div class="data">
-      <h1 class="dTitle p">2016</h1>
+      <h1 class="dTitle n">2016</h1>
       <div class="item">
        <h1 class="iTitle">Lorem Ipsum</h1>
-       <div class="hRef">
-        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush hyper"></i></a>
-        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o hyper"></i></a>
+       <div class="nRef">
+        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush nova"></i></a>
+        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o nova"></i></a>
        </div>
-       <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
+       <p class="iSub"><span class="nTag">Website</span> for Onyx</p>
+       <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+      </div>
+      <div class="item">
+       <h1 class="iTitle">Lorem Ipsum</h1>
+       <div class="nRef">
+        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush nova"></i></a>
+        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o nova"></i></a>
+       </div>
+       <p class="iSub"><span class="nTag">Website</span> for Onyx</p>
+       <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+      </div>
+     </div>
+     <div class="data">
+      <h1 class="dTitle n">2016</h1>
+      <div class="item">
+       <h1 class="iTitle">Lorem Ipsum</h1>
+       <div class="nRef">
+        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush nova"></i></a>
+        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o nova"></i></a>
+       </div>
+       <p class="iSub"><span class="nTag">Website</span> for Onyx</p>
        <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
       </div>
       <div class="item last">
        <h1 class="iTitle">Lorem Ipsum</h1>
-       <div class="hRef">
-        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush hyper"></i></a>
-        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o hyper"></i></a>
+       <div class="nRef">
+        <a href="#" data-tooltip="View Concept" data-placement="bottom"><i class="fa fa-paint-brush nova"></i></a>
+        <a href="#" data-tooltip="View Website" data-placement="bottom"><i class="fa fa-picture-o nova"></i></a>
        </div>
-       <p class="iSub"><span class="pTag">Website</span> for Onyx</p>
+       <p class="iSub"><span class="nTag">Website</span> for Onyx</p>
        <p class="desc">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
       </div>
      </div>
@@ -108,13 +108,13 @@
   <div class="footer-container">
    <div class="footer">
     <div class="social">
-     <a href="#"><i class="fa fa-github hyper" aria-hidden="true"></i></a>
-     <a href="#"><i class="fa fa-linkedin-square hyper" aria-hidden="true"></i></a>
-     <a href="#"><i class="fa fa-twitter hyper" aria-hidden="true"></i></a>
-     <a href="#"><i class="fa fa-paper-plane hyper" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-github nova" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-linkedin-square nova" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-twitter nova" aria-hidden="true"></i></a>
+     <a href="#"><i class="fa fa-paper-plane nova" aria-hidden="true"></i></a>
     </div>
     <div class="copy">
-     <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date("Y"); ?> <a href="#" class="hyper">Pretty</a> All Rights Reserved</p>
+     <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date("Y"); ?> <a href="#" class="nova">Pretty</a> All Rights Reserved</p>
     </div>
    </div>
   </div>
