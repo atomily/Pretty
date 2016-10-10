@@ -63,6 +63,25 @@ $hFour   ---/
 ### Layout
 I based the layout on the best way I feel is to display a portfolio. The navigation is fixed in the top position incase the viewer wants to go to another page. The footer is also in a fixed position but it has the copyright info for your website and the "social" section. By default I integrated [Font Awesome](http://fontawesome.io/) into it but you are free to add your own. Any icon set should work based on the code (Don't blame me if I'm wrong)
 
+#### Navigation (in detail)
+The navigation is broken down pretty straightforward. The navigation-container holds the nav in place on the top of the webpage. You can change this in theme.scss / theme.css by changing ```position:fixed ``` to ```position:relative```. The navigation class has all the width, height, padding, etc of the elements inside. logo-container holds the logo itself. By default it supports images and text of course. 
+
+To add / remove navigation links just add a ```<li><a href="#">Example</a></li>``` after the previous li or remove it. 
+
+```html
+  <div class="navigation-container">
+   <div class="navigation">
+    <div class="logo-container">
+     <a href="index.php" class="logo pulse">Pretty</a>
+    </div>
+    <ul>
+     <li><a href="index.php">Home</a></li>
+     <li><a href="portfolio.php">Portfolio</a></li>
+    </ul>
+   </div>
+  </div>
+```
+
 <a name="CSS"/>
 ## CSS
 ### Gradients
